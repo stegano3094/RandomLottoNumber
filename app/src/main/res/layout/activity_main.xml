@@ -41,7 +41,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_margin="16dp"
                     android:text="랜덤으로 로또 번호를 생성합니다." />
             </LinearLayout>
 
@@ -49,6 +49,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
+                android:layout_margin="8dp"
                 android:src="@drawable/lottery" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -94,6 +95,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
+                android:layout_margin="16dp"
                 android:src="@drawable/constellation" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -139,6 +141,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="140dp"
                 android:layout_height="140dp"
+                android:layout_margin="16dp"
                 android:src="@drawable/name" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>

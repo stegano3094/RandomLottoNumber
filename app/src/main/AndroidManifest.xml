@@ -9,9 +9,11 @@
         android:roundIcon="@drawable/logo_ste"
         android:supportsRtl="true"
         android:theme="@style/Theme.RandomLottoNumber">
-        <activity android:name=".ResultActivity" />
-        <activity android:name=".NameActivity" />
-        <activity android:name=".ConstellationActivity" />
+
+        <activity android:name=".ResultActivity" android:theme="@style/AppTheme.Result"/>
+        <activity android:name=".NameActivity" android:theme="@style/AppTheme.Name"/>
+        <activity android:name=".ConstellationActivity" android:theme="@style/AppTheme.Constellation"/>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
