@@ -9,10 +9,12 @@
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/randomCard"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
         android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:clickable="true"
         app:cardCornerRadius="8dp">
 
         <LinearLayout
@@ -33,7 +35,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="랜덤으로 번호 생성"
-                    android:textSize="24sp"/>
+                    android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/textView2"
@@ -52,11 +54,13 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/constellationCard"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
         android:layout_margin="2dp"
-        app:cardCornerRadius="8dp" >
+        android:layout_weight="1"
+        android:clickable="true"
+        app:cardCornerRadius="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -95,11 +99,13 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/nameCard"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="2dp"
         android:layout_weight="1"
-        app:cardCornerRadius="14dp" >
+        android:clickable="true"
+        app:cardCornerRadius="14dp">
 
         <LinearLayout
             android:layout_width="match_parent"
