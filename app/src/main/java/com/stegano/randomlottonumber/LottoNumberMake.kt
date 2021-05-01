@@ -6,7 +6,7 @@ import kotlin.random.Random
 
 object LottoNumberMake {
     // Random을 이용한 방법으로 난수 생성
-    private fun getRandomLottoNumbers(): MutableList<Int> {
+    fun getRandomLottoNumbers(): MutableList<Int> {
         val lottoNumbers = mutableListOf<Int>()
 
         for(i in 1..6) {
@@ -27,7 +27,7 @@ object LottoNumberMake {
     }
 
     // Shuffle로 간편하게 중복없는 난수를 생성할 수도 있음
-    private fun getShuffleLottoNumbers(): MutableList<Int> {
+    fun getShuffleLottoNumbers(): MutableList<Int> {
         val list = mutableListOf<Int>()
         for(number in 1..45) {
             list.add(number)  // 1~45까지 자례대로 배열에 추가
@@ -38,7 +38,7 @@ object LottoNumberMake {
 
     // ---------------------------------------------------------------------------------------------
 
-    private fun getLottoNumbersFromHash(name: String): MutableList<Int> {
+    fun getLottoNumbersFromHash(name: String): MutableList<Int> {
         val list = mutableListOf<Int>()
 
         for(number in 1..45) {

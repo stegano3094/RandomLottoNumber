@@ -19,10 +19,12 @@ class ResultActivity : AppCompatActivity() {
         val name = intent.getStringExtra("name")
         val constellation = intent.getStringExtra("constellation")
 
-        if(TextUtils.isEmpty(name)) {
-            resultLabel.text = "랜덤으로 생성된\n로또번호입니다."
-        } else {
+        if(!TextUtils.isEmpty(name)) {
             resultLabel.text = "${name} 님의\n로또번호입니다."
+        } else if (!TextUtils.isEmpty(constellation)) {
+            resultLabel.text = "${constellation}로 생성된\n로또번호입니다."
+        } else {
+            resultLabel.text = "랜덤으로 생성된\n로또번호입니다."
         }
 
         result?.let {

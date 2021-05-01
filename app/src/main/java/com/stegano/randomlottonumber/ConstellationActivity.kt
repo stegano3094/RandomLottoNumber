@@ -20,7 +20,9 @@ class ConstellationActivity : AppCompatActivity() {
 
         findViewById<View>(R.id.goResultButton).setOnClickListener {
             val intent = Intent(this, ResultActivity::class.java)
+            intent.putExtra("constellation", textView.text.toString())
             startActivity(intent)
+            finish()
         }
 
         val calendar = Calendar.getInstance()
