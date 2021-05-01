@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RandomLottoNumber">
 
-        <activity android:name=".ResultActivity" android:theme="@style/AppTheme.Result"/>
+        <activity android:name=".ResultActivity" android:theme="@style/AppTheme.Result" android:parentActivityName=".MainActivity"/>
         <activity android:name=".NameActivity" android:theme="@style/AppTheme.Name"/>
         <activity android:name=".ConstellationActivity" android:theme="@style/AppTheme.Constellation"/>
 
