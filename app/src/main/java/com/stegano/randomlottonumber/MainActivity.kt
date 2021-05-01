@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     // Shuffle로 간편하게 중복없는 난수를 생성할 수도 있음
-    private fun getRandomLottoNumbers2(): MutableList<Int> {
+    private fun getShuffleLottoNumbers(): MutableList<Int> {
         val list = mutableListOf<Int>()
         for(number in 1..45) {
             list.add(number)  // 1~45까지 자례대로 배열에 추가

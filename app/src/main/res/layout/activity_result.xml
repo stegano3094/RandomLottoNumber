@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="OOO님의\n로또 번호입니다."
+        android:text="로또 번호입니다."
         android:textSize="32sp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"

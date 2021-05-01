@@ -8,7 +8,7 @@
     tools:context=".ConstellationActivity">
 
     <DatePicker
-        android:id="@+id/dataPicker"
+        android:id="@+id/datePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -22,18 +22,18 @@
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/dataPicker"
+        android:layout_below="@id/datePicker"
         android:layout_margin="16dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginBottom="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintBottom_toTopOf="@+id/goResultButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dataPicker"
+        app:layout_constraintTop_toBottomOf="@+id/datePicker"
         app:srcCompat="@drawable/constellation" />
 
     <TextView
-        android:id="@+id/textView7"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@id/imageView4"
