@@ -25,5 +25,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, NameActivity::class.java)
             startActivity(intent)
         }
+
+
+        // 테스트용으로 바로 진입함 (나중에 메인으로 쓸 화면임)
+        val intent = Intent(this, TestActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }
