@@ -11,11 +11,10 @@
         android:roundIcon="@drawable/logo_ste"
         android:supportsRtl="true"
         android:theme="@style/Theme.RandomLottoNumber">
-        <activity android:name=".TestActivity"
-            android:theme="@style/AppTheme.Test"/>
+        <activity android:name=".GameActivity"/>
         <activity
             android:name=".ResultActivity"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".GameActivity"
             android:theme="@style/AppTheme.Result" />
         <activity
             android:name=".NameActivity"
@@ -23,7 +22,8 @@
         <activity
             android:name=".ConstellationActivity"
             android:theme="@style/AppTheme.Constellation" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
